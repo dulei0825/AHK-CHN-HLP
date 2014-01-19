@@ -1,0 +1,84 @@
+/* CSS Document */
+
+body {font-family: Microsoft Yahei}
+
+h1 {
+	font-size: 155%;
+	font-weight: normal;
+	margin: 0;
+    padding: 0 0 0.5em 4px;
+	border-bottom-style: ridge;
+    border-bottom-color: #FFFFFF;
+    border-bottom-width: 2px;
+}
+
+h2 {
+	font-size: 144%;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif, "MS sans serif";
+	background-color: #405871;
+	color: #FFFFFF;
+	margin: 1.5em 0 0.5em 0;
+	padding: 0.1em 0 0.1em 0.2em;
+}
+
+h3 {
+	font-size: 111%;
+	font-weight: bold;
+	background-color: #E6E6E6;
+	margin: 1.0em 0 0.5em 0;
+	padding: 0.1em 0 0.1em 0.2em;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+}
+
+ul, ol {
+	margin-top: 0.7em; 
+	margin-bottom: 0.7em;
+}
+
+li {
+	margin-top: 0.2em; 
+	margin-bottom: 0.2em; 
+	margin-left: -0.75em;
+}
+
+li.menu {
+	font-size: 80%;
+	margin-top: 0.2em; 
+	margin-bottom: 0.2em; 
+	margin-left: -0.75em;
+}
+
+table.info {
+    border: solid 2px #C0C0C0;
+    border-collapse: collapse;
+    width: 100%;
+    /*table-layout: fixed;*/
+}
+table.info td {
+    border: solid 2px #C0C0C0;
+    padding: 0.3em;
+}
+table.info th {
+    background-color: #F6F6F6;
+	padding: 0.3em;
+}
+
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre; 
+  background-color: #FFFF99;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+a {text-decoration: none;}
+a:link, a:active {color: #0000AA;}
+a:visited {color: #AA00AA;}
+a:hover {text-decoration: underline; color: #6666CC;}
+
+.xlargefont {font-size: x-large;}
+
